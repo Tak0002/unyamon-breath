@@ -20,5 +20,4 @@ https://tak0002.github.io/unyamon-breath/
 ## 素材
 
 - `assets/unyamon-room.jpg`: Google Driveの「うにゃもん」フォルダから取得した既存素材
-- `assets/unyamon-labeled.png`: Google Driveの「うにゃもん」フォルダから取得した既存素材
 - `assets/icons/`: 既存素材を参照して生成したPWAアイコン
