@@ -69,8 +69,11 @@ const els = {
   settingsButton: $("#settingsButton"),
   settingsDialog: $("#settingsDialog"),
   soundToggle: $("#soundToggle"),
+  vibrationRow: $("#vibrationRow"),
   vibrationToggle: $("#vibrationToggle"),
 };
+
+const vibrationSupported = typeof navigator.vibrate === "function";
 
 const state = {
   selected: routines[0],
@@ -272,7 +275,7 @@ function resetSession() {
 }
 
 function cue() {
-  if (state.settings.vibration && "vibrate" in navigator) {
+  if (state.settings.vibration && vibrationSupported) {
     navigator.vibrate(18);
   }
 
@@ -344,7 +347,13 @@ function registerServiceWorker() {
 
 function init() {
   els.soundToggle.checked = state.settings.sound;
-  els.vibrationToggle.checked = state.settings.vibration;
+  if (vibrationSupported) {
+    els.vibrationToggle.checked = state.settings.vibration;
+  } else {
+    state.settings.vibration = false;
+    els.vibrationRow.hidden = true;
+    writeJSON(storageKeys.settings, state.settings);
+  }
   renderRoutines();
   renderHistory();
   bindEvents();
