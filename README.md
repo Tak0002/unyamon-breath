@@ -2,7 +2,7 @@
 
 iPhoneのホーム画面から使える、ログインなしの呼吸サポートPWAです。
 
-## 公開URL
+## アクセスURL
 
 https://tak0002.github.io/unyamon-breath/
 
@@ -15,7 +15,7 @@ https://tak0002.github.io/unyamon-breath/
 
 ## GitHub Pages
 
-このフォルダの中身をリポジトリに置き、GitHub Pagesの公開元をリポジトリ直下にすると公開できます。
+GitHub Pagesで `main` ブランチのリポジトリ直下から公開しています。
 
 ## 素材
 
