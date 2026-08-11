@@ -21,3 +21,10 @@ GitHub Pagesで `main` ブランチのリポジトリ直下から公開してい
 
 - `assets/unyamon-room.jpg`: Google Driveの「うにゃもん」フォルダから取得した既存素材
 - `assets/icons/`: 既存素材を参照して生成したPWAアイコン
+
+## License
+
+Source code is available under the MIT License.
+
+Image assets and other media assets under `assets/` are proprietary and are not
+licensed for reuse. See [ASSETS-LICENSE.md](./ASSETS-LICENSE.md).
