@@ -2,6 +2,10 @@
 
 iPhoneのホーム画面から使える、ログインなしの呼吸サポートPWAです。
 
+## 公開URL
+
+https://tak0002.github.io/unyamon-breath/
+
 ## 画面
 
 - 呼吸法選択
