@@ -1,0 +1,26 @@
+{
+  "name": "うにゃもん呼吸室",
+  "short_name": "うにゃ呼吸",
+  "description": "うにゃもんと一緒に、浅い呼吸や眠れない夜をゆっくり整えるPWA。",
+  "lang": "ja",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#19243a",
+  "theme_color": "#19243a",
+  "icons": [
+    {
+      "src": "./assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
